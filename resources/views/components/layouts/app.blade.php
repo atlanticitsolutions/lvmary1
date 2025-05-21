@@ -22,13 +22,13 @@
             </label>
 
             {{-- Brand --}}
-            <div>App</div>
+            <x-button label="Home" icon="o-home" link="/" class="btn-ghost btn-sm" responsive />
         </x-slot:brand>
 
         {{-- Right side actions --}}
         <x-slot:actions>
-            <x-button label="Messages" icon="o-envelope" link="###" class="btn-ghost btn-sm" responsive />
-            <x-button label="Notifications" icon="o-bell" link="###" class="btn-ghost btn-sm" responsive />
+            <x-button label="Welcome" icon="o-envelope" link="welcome" class="btn-ghost btn-sm" responsive />
+            <x-button label="volttest" icon="o-bell" link="volttest" class="btn-ghost btn-sm" responsive />
         </x-slot:actions>
     </x-nav>
 
